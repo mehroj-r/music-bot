@@ -22,12 +22,12 @@ requires-python = ">=3.13"
 dependencies = [
     "aiogram>=3.31.0",
     "aiosqlite>=0.22.1",
-    "alembic>=1.20.0",
+    "alembic>=1.20.1",
     "cryptg>=0.6.0",
     "mutagen>=1.48.1",
-    "pillow>=12.3.0",
-    "pydantic-settings>=2.16.0",
-    "sqlalchemy[asyncio]>=2.1.4",
+    "pillow>=13.0.0",
+    "pydantic-settings>=2.16.1",
+    "sqlalchemy[asyncio]>=2.1.6",
     "telethon>=1.45.0",
     "yt-dlp[default]>=2026.8.19",
 ]
@@ -41,14 +41,14 @@ Issues = "https://github.com/mehroj-r/music-bot/issues"
 musicbot = "musicbot.__main__:main"
 
 [build-system]
-requires = ["uv_build>=0.13.1,<0.14"]
+requires = ["uv_build>=0.13.5,<0.14"]
 build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
     "pytest>=9.1.1",
     "pytest-asyncio>=1.4.0",
-    "ruff>=0.17.0",
+    "ruff>=0.17.2",
 ]
 
 [tool.ruff]
